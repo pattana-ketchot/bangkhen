@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bangkhen
 
-## Getting Started
+เว็บไซต์แนะนำสถานที่ท่องเที่ยว ประวัติศาสตร์ วัฒนธรรม ร้านอาหาร และสถานที่สำคัญในเขตบางเขน กรุงเทพฯ พัฒนาขึ้นเพื่อรวบรวมข้อมูลที่กระจัดกระจายให้อยู่ในเว็บไซต์เดียวและค้นหาได้ง่ายบนทุกอุปกรณ์
 
-First, run the development server:
+<img src="./public/ban-bang-khen.jpg" alt="หน้าเว็บไซต์ Bangkhen" width="100%" />
+
+## ฟีเจอร์หลัก
+
+- แสดงข้อมูลสถานที่พร้อมภาพ แกลเลอรี และ Google Maps
+- รองรับหน้ารายละเอียดที่ออกแบบเฉพาะแต่ละสถานที่
+- สร้างหน้าสถานที่แบบ Dynamic จากข้อมูลใน Supabase
+- เข้าสู่ระบบผู้ดูแลด้วย Supabase Authentication
+- ตรวจสอบสิทธิ์ผู้ดูแลก่อนเข้าใช้งาน Dashboard
+- เพิ่ม แก้ไข และลบข้อมูลสถานที่ผ่านระบบหลังบ้าน
+- แสดงภาพรวมข้อมูลและกราฟสถิติด้วย Recharts
+- รองรับการใช้งานบนคอมพิวเตอร์ แท็บเล็ต และโทรศัพท์มือถือ
+
+## เทคโนโลยีที่ใช้
+
+| ส่วน | เทคโนโลยี |
+|---|---|
+| Frontend | Next.js 14, React 18, TypeScript |
+| Styling | Tailwind CSS, Framer Motion, Lucide React |
+| Backend และฐานข้อมูล | Supabase Database, Supabase Auth |
+| Dashboard | Recharts, SweetAlert2 |
+| Version Control | Git, GitHub |
+
+## หน้าจอสำคัญ
+
+เว็บไซต์แบ่งเป็นสองส่วนหลัก
+
+1. **หน้าสำหรับผู้เข้าชม** — สำรวจสถานที่ อ่านเรื่องราว ดูรูปภาพ และเปิดเส้นทาง
+2. **ระบบผู้ดูแล** — เข้าสู่ระบบ จัดการข้อมูลสถานที่ คลังภาพ และดูสถิติ
+
+> Live Demo: ยังไม่ได้เผยแพร่
+
+## การติดตั้งและเปิดใช้งาน
+
+สิ่งที่ต้องมีในเครื่อง: Node.js 18 ขึ้นไป และ npm
+
+```bash
+git clone https://github.com/popoza11874/bangkhen.git
+cd bangkhen
+npm install
+```
+
+สร้างไฟล์ `.env.local` ที่โฟลเดอร์หลักของโปรเจกต์ แล้วเพิ่มข้อมูลสำหรับเชื่อมต่อ Supabase
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+เปิด Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+จากนั้นเปิด [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## คำสั่งที่ใช้บ่อย
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev       # เปิดเซิร์ฟเวอร์สำหรับพัฒนา
+npm run build     # ตรวจสอบและสร้าง Production build
+npm run start     # เปิด Production server
+npm run lint      # ตรวจสอบรูปแบบและคุณภาพโค้ด
+```
 
-## Learn More
+## ผู้พัฒนา
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[popoza11874](https://github.com/popoza11874)
