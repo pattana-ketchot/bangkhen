@@ -42,7 +42,7 @@ export default function AirForceMuseumPage() {
       {/* ================= HERO (ข้อมูลเดิม 100%) ================= */}
       <section className="relative min-h-[100svh] sm:h-screen flex items-center overflow-hidden">
         <img 
-          src="https://img2.pic.in.th/wyia3h.jpg" 
+          src="/wyia3h.jpg"
           className="absolute inset-0 w-full h-full object-cover scale-105" 
           alt="Royal Thai Air Force Museum"
         />
@@ -65,12 +65,12 @@ export default function AirForceMuseumPage() {
       <section className="py-8 sm:py-12 px-4 sm:px-8 bg-neutral-100">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
           {[
-            "https://img5.pic.in.th/file/secure-sv1/8dfd39cbb4bb452da56795fa2dc573c4.webp",
-            "https://img2.pic.in.th/30CEBC5532B6434D873141C9AA5BF62E.jpg",
-            "https://img2.pic.in.th/hk5gys.jpg",
-            "https://img2.pic.in.th/wyia3h.jpg",
-            "https://img5.pic.in.th/file/secure-sv1/521607_3317805921367_1710878485_n.jpg",
-            "https://img5.pic.in.th/file/secure-sv1/7e58556b8ffac3ff932b9cb04bef8c56.jpg",
+            "/779112094_1574046384465811_9744883803697847_n.jpg",
+            "/780031562_1524039886139905_5633745017240676824_n.jpg",
+            "/780443208_2017148449006068_6997334315861731505_n.jpg",
+            "/781136899_1423361456340146_1636649068913780075_n.jpg",
+            "/782571528_1362426082271615_3885365461051337485_n.jpg",
+            "/783285668_1635498947998247_2990932539617527024_n.jpg",
           ].map((src, i) => (
             <div key={i} className="aspect-square overflow-hidden hover:opacity-80 transition-opacity">
               <img src={src} className="w-full h-full object-cover" alt={`gallery-${i}`} />
@@ -102,7 +102,7 @@ export default function AirForceMuseumPage() {
 
           <div className="lg:w-1/2 w-full">
             <img
-              src="https://img5.pic.in.th/file/secure-sv1/7e58556b8ffac3ff932b9cb04bef8c56.jpg"
+              src="/780031562_1524039886139905_5633745017240676824_n.jpg"
               className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[600px]
                          object-cover rounded-2xl sm:rounded-[3rem] shadow-2xl"
               alt="Exhibition Hall"
@@ -123,7 +123,7 @@ export default function AirForceMuseumPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
           <div className="lg:col-span-7">
             <img
-              src="https://img5.pic.in.th/file/secure-sv1/521607_3317805921367_1710878485_n.jpg"
+              src="/781136899_1423361456340146_1636649068913780075_n.jpg"
               className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[700px]
                          object-cover rounded-3xl"
               alt="Aircraft Display"
@@ -160,7 +160,7 @@ export default function AirForceMuseumPage() {
       <section className="py-20 sm:py-32 px-4 sm:px-8 text-center bg-white">
         <div className="max-w-4xl mx-auto space-y-8 sm:space-y-12">
           <img
-            src="https://img5.pic.in.th/file/secure-sv1/8dfd39cbb4bb452da56795fa2dc573c4.webp"
+            src="/779238212_1106413905059120_4127757371079675471_n.jpg"
             className="w-full rounded-2xl sm:rounded-[2rem] shadow-xl"
             alt="Museum Evening"
           />
