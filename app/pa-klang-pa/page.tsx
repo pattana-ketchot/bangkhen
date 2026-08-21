@@ -41,7 +41,7 @@ export default function TaladLapKlangPaPage() {
       {/* ================= HERO ================= */}
       <section className="relative min-h-[100svh] sm:h-screen flex items-center overflow-hidden">
         <img
-          src="https://img2.pic.in.th/1726734267746-AW_--04.jpg"
+          src="/1726734267959-AW.jpg"
           className="absolute inset-0 w-full h-full object-cover scale-105"
           alt="Talad Lap Klang Pa Bangkhen"
         />
@@ -64,12 +64,11 @@ export default function TaladLapKlangPaPage() {
       <section className="py-8 sm:py-12 px-4 sm:px-8 bg-neutral-950">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
           {[
-            "https://img5.pic.in.th/file/secure-sv1/1726734392669-AW_-01.jpg",
-            "https://img2.pic.in.th/1a8191e5fe924d098f735485c62e79d3.jpg",
-            "https://img2.pic.in.th/1726734537162-AW_-05.jpg",
-            "https://img5.pic.in.th/file/secure-sv1/528686814_754603623854258_4822043653854683989_n.jpg",
-            "https://img5.pic.in.th/file/secure-sv1/1726734560203-AW_-06.jpg",
-            "https://img2.pic.in.th/a7c05142cb8e48bb89bb55702a0aa724.jpg",
+            "/1726734267959-AW.jpg",
+            "/market-images-3.jpg",
+            "/market-images-2.jpg",
+            "/market-images-1.jpg",
+            "/1726734267748-AW-05.jpg",
           ].map((src, i) => (
             <div key={i} className="aspect-square overflow-hidden hover:opacity-80 transition-opacity">
               <img src={src} className="w-full h-full object-cover" alt={`gallery-${i}`} />
@@ -101,7 +100,7 @@ export default function TaladLapKlangPaPage() {
 
           <div className="lg:w-1/2 w-full">
             <img
-              src="https://img2.pic.in.th/1a8191e5fe924d098f735485c62e79d3.jpg"
+              src="/market-images-1.jpg"
               className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]
                          object-cover rounded-2xl sm:rounded-[3rem] shadow-2xl"
               alt="Food Zone"
@@ -120,7 +119,7 @@ export default function TaladLapKlangPaPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
           <div className="lg:col-span-7">
             <img
-              src="https://img5.pic.in.th/file/secure-sv1/528686814_754603623854258_4822043653854683989_n.jpg"
+              src="/market-images-2.jpg"
               className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[700px]
                          object-cover rounded-3xl"
               alt="Live Music"
