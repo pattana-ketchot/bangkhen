@@ -42,7 +42,7 @@ export default function ThaiTeacherMuseumPage() {
       {/* ================= HERO (ข้อมูลเดิม 100%) ================= */}
       <section className="relative min-h-[100svh] sm:h-screen flex items-center overflow-hidden">
         <img 
-          src="/dzx.jpg"
+          src="/teacher-training-hero-hd.png"
           className="absolute inset-0 w-full h-full object-cover scale-105" 
           alt="Thai Teacher Training Museum"
         />
