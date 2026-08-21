@@ -42,7 +42,7 @@ export default function OYuaHomeMadePage() {
       {/* ================= HERO (ข้อมูลเดิม 100%) ================= */}
       <section className="relative min-h-[100svh] sm:h-screen flex items-center overflow-hidden">
         <img 
-          src="https://img5.pic.in.th/file/secure-sv1/470131394_966026635548052_4596675357541792440_n.jpg" 
+          src="/home-made-1.jpg"
           className="absolute inset-0 w-full h-full object-cover scale-105" 
           alt="OYua Home Made Bangkhen"
         />
@@ -65,12 +65,12 @@ export default function OYuaHomeMadePage() {
       <section className="py-8 sm:py-12 px-4 sm:px-8 bg-neutral-50">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
           {[
-            "https://img2.pic.in.th/470151301_966026832214699_4454435757050864483_n.jpg",
-            "https://img5.pic.in.th/file/secure-sv1/470170496_966026725548043_7226898821068321665_n.jpg",
-            "https://img2.pic.in.th/470140952_966027022214680_1214624040026561332_n.jpg",
-            "https://img5.pic.in.th/file/secure-sv1/470156634_966027118881337_7641603060464031950_n.jpg",
-            "https://img5.pic.in.th/file/secure-sv1/470153507_966027055548010_7747301614476287538_n.jpg",
-            "https://img2.pic.in.th/470138573_966027032214679_6160493593601405360_n.jpg",
+            "/home-made-1.jpg",
+            "/home-made-2.jpg",
+            "/home-made-3.jpg",
+            "/home-made-4.jpg",
+            "/home-made-5.jpg",
+            "/home-made-6.jpg",
           ].map((src, i) => (
             <div key={i} className="aspect-square overflow-hidden hover:opacity-80 transition-opacity">
               <img src={src} className="w-full h-full object-cover" alt={`gallery-${i}`} />
@@ -100,7 +100,7 @@ export default function OYuaHomeMadePage() {
 
           <div className="lg:w-1/2 w-full">
             <img
-              src="https://img2.pic.in.th/470151301_966026832214699_4454435757050864483_n.jpg"
+              src="/home-made-2.jpg"
               className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[600px]
                          object-cover rounded-2xl sm:rounded-[3rem] shadow-2xl"
               alt="Kitchen"
@@ -120,7 +120,7 @@ export default function OYuaHomeMadePage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
           <div className="lg:col-span-7">
             <img
-              src="https://img5.pic.in.th/file/secure-sv1/470156634_966027118881337_7641603060464031950_n.jpg"
+              src="/home-made-3.jpg"
               className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[700px]
                          object-cover rounded-3xl"
               alt="Dessert"
@@ -153,7 +153,7 @@ export default function OYuaHomeMadePage() {
       <section className="py-20 sm:py-32 px-4 sm:px-8 text-center bg-white">
         <div className="max-w-4xl mx-auto space-y-8 sm:space-y-12">
           <img
-            src="https://img5.pic.in.th/file/secure-sv1/470153507_966027055548010_7747301614476287538_n.jpg"
+            src="/home-made-6.jpg"
             className="w-full rounded-2xl sm:rounded-[2rem] shadow-xl"
             alt="Store"
           />
