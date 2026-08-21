@@ -71,7 +71,7 @@ export default function Recommend() {
             <div className="relative z-10 transform transition-all duration-500 group-hover:-translate-y-4">
               <Link href="/air-force">
                 <Card
-                  image="https://img5.pic.in.th/file/secure-sv1/969924_3317678038170_527200805_n.jpg"
+                  image="/wyia3h.jpg"
                   title="พิพิธภัณฑ์กองทัพอากาศ"
                   desc="ทะยานสู่ประวัติศาสตร์การบินไทยที่รวมอากาศยานหายากที่สุด"
                 />
@@ -88,7 +88,7 @@ export default function Recommend() {
             <div className="relative z-10 transform transition-all duration-500 group-hover:-translate-y-4">
               <Link href="/home-made">
                 <Card
-                  image="https://img5.pic.in.th/file/secure-sv1/77e66583cbd6d6ba22e2d2c61f5b961b.jpg"
+                  image="/aw.jpg"
                   title="โอยั๊วะ Home Made"
                   desc="โอเอซิสกลางกรุงกับอาหารสไตล์ฟิวชันในบ้านไม้สุดคลาสสิก"
                 />
