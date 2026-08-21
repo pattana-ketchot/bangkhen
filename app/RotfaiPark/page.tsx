@@ -129,7 +129,7 @@ export default function SuanRotFaiPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
           <div className="lg:col-span-7">
             <img
-              src="/780201724_4339414249644153_7034225001592186784_n.jpg"
+              src="/781903933_4804572829773925_2210023300955982367_n.jpg"
               className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[700px]
                          object-cover rounded-3xl"
               alt="Cycling Track"
