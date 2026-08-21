@@ -101,7 +101,7 @@ export default function ThaiTeacherMuseumPage() {
 
           <div className="lg:w-1/2 w-full">
             <img
-              src="/teacher-training-6.jpg"
+              src="/teacher-training-gallery-hd.png"
               className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[600px]
                          object-cover rounded-2xl sm:rounded-[3rem] shadow-2xl"
               alt="Old Classroom"
@@ -122,7 +122,7 @@ export default function ThaiTeacherMuseumPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
           <div className="lg:col-span-7">
             <img
-              src="/teacher-training-5.jpg"
+              src="/teacher-training-classroom-hd.png"
               className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[700px]
                          object-cover rounded-3xl"
               alt="Museum Exhibition"
@@ -159,7 +159,7 @@ export default function ThaiTeacherMuseumPage() {
       <section className="py-20 sm:py-32 px-4 sm:px-8 text-center bg-white">
         <div className="max-w-4xl mx-auto space-y-8 sm:space-y-12">
           <img
-            src="/teacher-training-7.jpg"
+            src="/teacher-training-model-hd.png"
             className="w-full rounded-2xl sm:rounded-[2rem] shadow-xl"
             alt="Museum Evening"
           />
