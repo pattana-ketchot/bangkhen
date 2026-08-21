@@ -51,7 +51,7 @@ export default function SuanRotFaiPage() {
       {/* ================= HERO ================= */}
       <section className="relative min-h-[100svh] sm:h-screen flex items-center overflow-hidden">
         <img
-          src="https://img2.pic.in.th/d501eb2b6c044c2dab67c4152f1a6b0d.jpg"
+          src="/782637060_1057278113947230_7907119360892849712_n.jpg"
           className="absolute inset-0 w-full h-full object-cover scale-105"
           alt="Suan Rot Fai Park"
         />
@@ -74,12 +74,12 @@ export default function SuanRotFaiPage() {
       <section className="py-8 sm:py-12 px-4 sm:px-8 bg-neutral-100">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
           {[
-            "https://img5.pic.in.th/file/secure-sv1/a214e8faf3984a92a49111ae25bffd1d.jpg",
-            "https://img2.pic.in.th/WEB_-03.jpg",
-            "https://img5.pic.in.th/file/secure-sv1/imagesb71addefd6d9449d.jpg",
-            "https://img5.pic.in.th/file/secure-sv1/DSC02386-1500x1000.jpg",
-            "https://img5.pic.in.th/file/secure-sv1/43f11358-040d-c038-be07-59eac2a55dae.jpg",
-            "https://img2.pic.in.th/DSC02507-1-1500x1000.jpg",
+            "/782637060_1057278113947230_7907119360892849712_n.jpg",
+            "/781005105_1774587593970647_2207480207105416939_n.jpg",
+            "/780671789_1074746135003442_7550626714998331608_n.jpg",
+            "/778155700_1084407030912330_7547652146484522737_n.jpg",
+            "/778155730_1457639566185228_2153059733075002820_n.jpg",
+            "/780201724_4339414249644153_7034225001592186784_n.jpg",
           ].map((src, i) => (
             <div key={i} className="aspect-square overflow-hidden hover:opacity-80 transition-opacity">
               <img src={src} className="w-full h-full object-cover" alt={`gallery-${i}`} />
@@ -110,7 +110,7 @@ export default function SuanRotFaiPage() {
 
           <div className="lg:w-1/2 w-full">
             <img
-              src="https://img2.pic.in.th/WEB_-03.jpg"
+              src="/778155700_1084407030912330_7547652146484522737_n.jpg"
               className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[600px]
                          object-cover rounded-2xl sm:rounded-[3rem] shadow-2xl"
               alt="Lake in Park"
@@ -129,7 +129,7 @@ export default function SuanRotFaiPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
           <div className="lg:col-span-7">
             <img
-              src="https://img5.pic.in.th/file/secure-sv1/43f11358-040d-c038-be07-59eac2a55dae.jpg"
+              src="/780201724_4339414249644153_7034225001592186784_n.jpg"
               className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[700px]
                          object-cover rounded-3xl"
               alt="Cycling Track"
@@ -166,7 +166,7 @@ export default function SuanRotFaiPage() {
       <section className="py-20 sm:py-32 px-4 sm:px-8 text-center bg-white">
         <div className="max-w-4xl mx-auto space-y-8 sm:space-y-12">
           <img
-            src="https://img5.pic.in.th/file/secure-sv1/-442cdf616977a70a9.jpg"
+            src="/780671789_1074746135003442_7550626714998331608_n.jpg"
             className="w-full rounded-2xl sm:rounded-[2rem] shadow-xl"
             alt="Sunset"
           />
