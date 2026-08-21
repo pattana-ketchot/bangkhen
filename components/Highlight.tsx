@@ -44,7 +44,7 @@ export default function Highlight() {
           <div className="flex justify-center lg:justify-end">
             <div className="w-full max-w-sm md:max-w-lg h-[240px] md:h-[360px] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://img2.pic.in.th/20120210162204DRGv.jpg"
+                src="/dzx.jpg"
                 alt="พิพิธภัณฑ์การฝึกหัดครูไทย"
                 className="w-full h-full object-cover"
               />
