@@ -42,7 +42,7 @@ export default function ThaiTeacherMuseumPage() {
       {/* ================= HERO (ข้อมูลเดิม 100%) ================= */}
       <section className="relative min-h-[100svh] sm:h-screen flex items-center overflow-hidden">
         <img 
-          src="https://img5.pic.in.th/file/secure-sv1/20120210162204DRGv-1.jpg" 
+          src="/dzx.jpg"
           className="absolute inset-0 w-full h-full object-cover scale-105" 
           alt="Thai Teacher Training Museum"
         />
@@ -65,12 +65,12 @@ export default function ThaiTeacherMuseumPage() {
       <section className="py-8 sm:py-12 px-4 sm:px-8 bg-neutral-100">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
           {[
-            "https://img5.pic.in.th/file/secure-sv1/20120210162216DsFX.jpg",
-            "https://img2.pic.in.th/20120210162208YdDp.jpg",
-            "https://img5.pic.in.th/file/secure-sv1/20120210162220M9Z1.jpg",
-            "https://img2.pic.in.th/20120210162224rrXz.jpg",
-            "https://img5.pic.in.th/file/secure-sv1/20120210162240wMwB.jpg",
-            "https://img2.pic.in.th/20120210162232R2pW.jpg",
+            "/teacher-training-2.jpg",
+            "/teacher-training-3.jpg",
+            "/teacher-training-4.jpg",
+            "/teacher-training-5.jpg",
+            "/teacher-training-6.jpg",
+            "/teacher-training-7.jpg",
           ].map((src, i) => (
             <div key={i} className="aspect-square overflow-hidden hover:opacity-80 transition-opacity">
               <img src={src} className="w-full h-full object-cover" alt={`gallery-${i}`} />
@@ -101,7 +101,7 @@ export default function ThaiTeacherMuseumPage() {
 
           <div className="lg:w-1/2 w-full">
             <img
-              src="https://img5.pic.in.th/file/secure-sv1/20120210162240wMwB.jpg"
+              src="/teacher-training-6.jpg"
               className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[600px]
                          object-cover rounded-2xl sm:rounded-[3rem] shadow-2xl"
               alt="Old Classroom"
@@ -122,7 +122,7 @@ export default function ThaiTeacherMuseumPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
           <div className="lg:col-span-7">
             <img
-              src="https://img5.pic.in.th/file/secure-sv1/20120210162216DsFX.jpg"
+              src="/teacher-training-5.jpg"
               className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[700px]
                          object-cover rounded-3xl"
               alt="Museum Exhibition"
@@ -159,7 +159,7 @@ export default function ThaiTeacherMuseumPage() {
       <section className="py-20 sm:py-32 px-4 sm:px-8 text-center bg-white">
         <div className="max-w-4xl mx-auto space-y-8 sm:space-y-12">
           <img
-            src="https://img2.pic.in.th/20120210162232R2pW.jpg"
+            src="/teacher-training-7.jpg"
             className="w-full rounded-2xl sm:rounded-[2rem] shadow-xl"
             alt="Museum Evening"
           />
