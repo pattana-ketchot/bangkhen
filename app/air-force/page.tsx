@@ -43,7 +43,7 @@ export default function AirForceMuseumPage() {
       <section className="relative min-h-[100svh] sm:h-screen flex items-center overflow-hidden">
         <img 
           src="/wyia3h.jpg"
-          className="absolute inset-0 w-full h-full object-cover scale-105" 
+          className="absolute inset-0 block w-full max-w-full h-full object-cover scale-105"
           alt="Royal Thai Air Force Museum"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
@@ -73,7 +73,7 @@ export default function AirForceMuseumPage() {
             "/783285668_1635498947998247_2990932539617527024_n.jpg",
           ].map((src, i) => (
             <div key={i} className="aspect-square overflow-hidden hover:opacity-80 transition-opacity">
-              <img src={src} className="w-full h-full object-cover" alt={`gallery-${i}`} />
+              <img src={src} className="block w-full max-w-full h-full object-cover" alt={`gallery-${i}`} />
             </div>
           ))}
         </div>
@@ -103,7 +103,7 @@ export default function AirForceMuseumPage() {
           <div className="lg:w-1/2 w-full">
             <img
               src="/780031562_1524039886139905_5633745017240676824_n.jpg"
-              className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[600px]
+              className="block w-full max-w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[600px]
                          object-cover rounded-2xl sm:rounded-[3rem] shadow-2xl"
               alt="Exhibition Hall"
             />
@@ -124,7 +124,7 @@ export default function AirForceMuseumPage() {
           <div className="lg:col-span-7">
             <img
               src="/781136899_1423361456340146_1636649068913780075_n.jpg"
-              className="w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[700px]
+              className="block w-full max-w-full h-[300px] sm:h-[420px] md:h-[520px] lg:h-[700px]
                          object-cover rounded-3xl"
               alt="Aircraft Display"
             />
@@ -161,7 +161,7 @@ export default function AirForceMuseumPage() {
         <div className="max-w-4xl mx-auto space-y-8 sm:space-y-12">
           <img
             src="/779238212_1106413905059120_4127757371079675471_n.jpg"
-            className="w-full rounded-2xl sm:rounded-[2rem] shadow-xl"
+            className="block w-full max-w-full max-h-[560px] object-cover rounded-2xl sm:rounded-[2rem] shadow-xl"
             alt="Museum Evening"
           />
           <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl
